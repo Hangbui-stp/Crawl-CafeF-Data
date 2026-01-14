@@ -1,4 +1,4 @@
 ChromeDriver là cầu nối để Selenium/WebDriver có thể điều khiển trình duyệt Chrome (mở trang, click, đọc bảng…): https://developer.chrome.com/docs/chromedriver/downloads                    
 Code là một script Selenium (Selenium muốn điều khiển Chrome thì cần driver) tự động mở CafeF theo từng mã cổ phiếu + từng loại báo cáo, lấy các chỉ số tài chính, rồi xuất ra Excel/CSV.                
 Quan trọng: Trong code đang dùng webdriver_manager (ChromeDriverManager().install()), nghĩa là thường không cần tải ChromeDriver thủ công, thư viện sẽ tự tải driver phù hợp.              
-(Ngoài ra Selenium còn có “Selenium Manager” sẽ tự tải & trỏ path đến driver để webdriver.Chrome(...) chạy được, không cần tự tải từ trang ChromeDriver để tự quản lý driver trong nhiều trường hợp, tuỳ phiên bản Selenium bạn dùng.)
+(Ngoài ra Selenium còn có “Selenium Manager” sẽ tự tải & trỏ path đến driver để webdriver.Chrome(...) chạy được, không cần tự tải từ trang ChromeDriver để tự quản lý driver trong nhiều trường hợp, tuỳ phiên bản Selenium)
